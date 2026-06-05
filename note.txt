@@ -1,0 +1,6 @@
+زاي تحوله لبرنامج الآن؟
+احفظ الكود ده في ملف اسمه daily.py.
+افتح الـ Terminal واكتب:
+pip install pyinstaller customtkinter
+بعدين اكتب الأمر ده عشان يطلع لك ملف واحد شغال:
+pyinstaller --noconsole --onefile --collect-all customtkinter daily.py
